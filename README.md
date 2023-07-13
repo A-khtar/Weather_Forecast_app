@@ -1,15 +1,15 @@
 # Weather_Forecast_app
 The main aim of this project is to provide users with real-time weather information, forecasts, and other weather-related data, which can help them make better decisions about their day-to-day activities.I built this project using HTML CSS & JavaScript. I’ve used OpenWeatherMap API to get the weather details of the user entered city or user’s current location.I used vanilla JavaScript to create this weather app. In the JavaScript file, I got the user entered city name and sent a get request to an OpenWeatherMap API with passing the city name. If the user clicked on the “Get Device Location” button then first I checked the user browser supports geolocation API or not.
 # The HTML code  represents the structure of a weather dashboard application. It includes placeholders for weather data that will be populated dynamically using JavaScript. Here's a breakdown of the code:
-The <head> section includes the title of the page, a reference to an external CSS file (style1.css), and a reference to an external JavaScript file (weather.js).
-The <body> section contains the main content of the weather dashboard application.
-The <h1> element displays the heading "Weather Dashboard".
-The <div class="container"> element acts as a wrapper for the weather input and weather data sections.
-The <div class="weather-input"> section includes an input field for entering a city name, a search button, a separator, and a button to use the current location.
-The <div class="weather-data"> section contains the current weather and 5-day forecast sections.
-The <div class="current-weather"> section displays the details of the current weather. The placeholders surrounded by underscores will be updated dynamically with actual weather data.
-The <div class="days-forecast"> section displays the 5-day forecast. It includes an unordered list (<ul>) with five list items (<li>) representing each day's forecast. Similar to the current weather section, the placeholders within the list items will be updated dynamically with actual weather data.
-The HTML code provides the basic structure of the weather dashboard, and the JavaScript file referenced in the <script> tag (weather.js) is responsible for fetching weather data and populating the placeholders with the retrieved data.
+The  head section includes the title of the page, a reference to an external CSS file (style1.css), and a reference to an external JavaScript file (weather.js).
+The body section contains the main content of the weather dashboard application.
+The h1 element displays the heading "Weather Dashboard".
+The div class="container" element acts as a wrapper for the weather input and weather data sections.
+The div class="weather-input" section includes an input field for entering a city name, a search button, a separator, and a button to use the current location.
+The div class="weather-data" section contains the current weather and 5-day forecast sections.
+The div class="current-weather" section displays the details of the current weather. The placeholders surrounded by underscores will be updated dynamically with actual weather data.
+The div class="days-forecast"section displays the 5-day forecast. It includes an unordered list (ul) with five list items (li) representing each day's forecast. Similar to the current weather section, the placeholders within the list items will be updated dynamically with actual weather data.
+The HTML code provides the basic structure of the weather dashboard, and the JavaScript file referenced in the script tag (weather.js) is responsible for fetching weather data and populating the placeholders with the retrieved data.
 
 
 # The CSS code you provide adds styles to the HTML structure of the weather dashboard. Here's a breakdown of the CSS code:
